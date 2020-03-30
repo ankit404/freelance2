@@ -1,0 +1,483 @@
+/* =================================================
+Author Name: Codeglim
+Author URI: http://codeglim.com
+Template Name: Jalil
+Description: Jalil is a modern responsive business and personal tempalte, you can use this template for your business,corporate,agency personal purpouse.
+*/
+
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 991px) {
+body{
+	font-size:14px;
+}
+.section-title h2{
+	margin-bottom:10px;
+}
+.logo {
+	text-align: center;
+}
+.logo img{
+	display:inline-table;
+}
+#header .search-form{
+	top:50px;
+}
+#header.personal .search-form{
+	top:56px;
+}
+#header .nav {
+	float: left;
+}
+#header .nav li{
+	margin-right:3px;
+}
+#header .nav li a{
+	padding:15px 12px;
+	font-size:13px;
+}
+#j-slider .single-slider,
+#j-slider .slide-text{
+	height:450px;
+}
+#j-slider .slide-text.left {
+	padding: 0 60px 0 0;
+}
+#j-slider .slide-text.right{
+	padding:0 0 0 60px;
+}
+#j-slider .slide-text.center{
+	padding: 0 60px;
+}
+#j-slider .slide-text h1{
+	font-size:35px;
+}
+#j-slider.static .slide-text h1{
+	font-size:25px;
+}
+#j-slider .owl-dots{
+	bottom:30px;
+}
+#j-slider .owl-theme .owl-nav{
+	display:none;
+}
+#statics {
+	margin-top: 0;
+	padding: 0;
+}
+#statics .statics{
+	border-radius:0px;
+}
+#about-us{
+	padding:70px 0;
+}
+#about-us .single-about p{
+	font-size:13px;
+}
+#project .project-hover{
+	padding:10px;
+}
+#call-to-action h2,
+#call-to-action a{
+	display:block;
+}
+#call-to-action a{
+	margin-top:10px;
+}
+#testimonial .owl-dots{
+	left:-22px;
+}
+#clients:hover .owl-nav .owl-prev{
+	left:0px;
+}
+#clients:hover .owl-nav .owl-next{
+	right:0px;
+}
+#personal-banner .table-cell .banner-main{
+	margin:0 auto;
+}
+#about-me .about-contact, #about-me .about-text{
+	margin-top:15px;
+}
+#about-me h3{
+	margin-bottom:15px;
+	font-size:20px;
+}
+#about-me .about-text p{
+	font-size:13px;
+}
+#about-me .about-button .button {
+	display: block;
+	width: 172px;
+	margin-bottom: 8px;
+	text-align:center;
+}
+#about-me .my-image img{
+	height:352px;
+	width:100%;
+}
+#contact .map{
+	height:478px;
+}
+}
+/* Mobile Layout */
+@media (max-width: 767px) {
+body{
+	font-size:14px;
+}
+#header .top-left {
+	float: none;
+	text-align: center;
+}
+#header .search{
+	display:none;
+}
+#header.personal{
+	background:#252525;
+}
+#header .top-right {
+	float: none;
+	text-align: center;
+	margin-top:10px;
+}
+#header .social {
+	float: none;
+}
+#header .nav {
+	float: none;
+}
+.navbar-nav{
+	margin:0;
+}
+#header .mainmenu{
+	padding-right:0px;
+}
+#header .nav li{
+	margin-bottom:5px;
+}
+#header .nav li a{
+	border-radius:5px;
+	padding:10px;
+	font-size:13px;
+}
+#header .nav li .sub-menu{
+	position:relative;
+	top: 100%;
+	opacity:1;
+	visibility: visible;
+	margin-top: 5px;
+	width: 100%;
+	border-top:0px solid;
+}
+#header .nav li .sub-menu li a {
+	text-align: left;
+	padding: 10px 24px;
+}
+#header .mobile-nav {
+	display: block;
+}
+#header .slicknav_nav{
+	padding-top:10px;
+}
+#header.slicknav_nav a{
+	border-radius:5px;
+	font-size:14px;
+}
+#header .slicknav_nav a:hover {
+	color: #fff;
+}
+#header .slicknav_nav .slicknav_row:hover {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	color: #fff;
+}
+#header .mobile-nav .slicknav_menu {
+	background:transparent;
+}
+#header .slicknav_nav .slicknav_row, .slicknav_nav a{
+	margin:0;
+}
+#header .slicknav_menu {
+	padding:0;
+}
+#header .slicknav_btn {
+	position: relative;
+	background: transparent;
+	padding: 10px 10px;
+	margin: 0;
+	margin-top: -40px;
+}
+#header .slicknav_menutxt{
+	text-shadow:none;
+	font-weight:500;
+	font-size:15px;
+}
+#header .search-form{
+	top:50px;
+	width:300px;
+}
+#header.personal .search-form{
+	top:62px;
+}
+#personal-banner .table-cell .banner-main {
+	width: 100%;
+}
+#j-slider .single-slider,
+#j-slider .slide-text{
+	height:440px;
+}
+#j-slider .slide-text.left{
+	padding-right:10px;
+}
+#j-slider .slide-text.center{
+	padding:0 10px;
+}
+#j-slider .slide-text.right {
+	padding: 0 0 0 10px;
+}
+#j-slider .slide-text h1 {
+	font-size: 16px;
+	margin-bottom:5px;
+}
+#j-slider .slide-text h1 span{
+	font-size:14px;
+}
+#j-slider .slide-text p{
+	font-size:14px;
+}
+#j-slider .slide-button .button{
+	padding:10px 20px;
+	font-size:13px;
+}
+#j-slider .owl-dots{
+	bottom:10px;
+}
+#j-slider .owl-theme .owl-nav{
+	display:none;
+}
+#j-slider.static .slide-text p{
+	padding:0px;
+}
+#personal-banner .banner-text h1{
+	font-size:34px;
+}
+#statics {
+	margin-top: 0px;
+	padding: 20px 0;
+	background: #f5f5f5;
+}
+#statics .statics{
+	border-radius:0px;
+}
+#about-us {
+	padding:50px 0;
+}
+#about-me {
+	padding: 70px 0;
+}
+#about-me .about-contact, 
+#about-me .my-image, 
+#about-me .about-text{
+	text-align:center;
+	margin-top:30px;
+}
+#about-me .my-image{
+	text-align:center;
+}
+
+#about-me .my-image img{
+	display:inline-block;
+}
+#my-timeline .timeline-inner:before{
+	display:none;
+}
+#my-timeline .single-main{
+	margin-bottom:30px;
+}
+#my-timeline .single-main:last-child{
+	margin-bottom:0px;
+}
+
+#my-timeline .single-timeline .single-content{
+	width:100%;
+	margin-bottom:10px;
+}
+#my-timeline .single-main:nth-child(2n) .single-timeline{
+	padding-left:0px;
+	padding-right:120px;
+}
+#my-timeline .single-main:nth-child(2n) .single-timeline .single-content{
+	margin-left:0px;
+}
+#my-timeline .single-main:nth-child(2n) .single-timeline .single-content::before {
+	left: auto;
+	right: -31px;
+	border-right-color: transparent;
+	border-left-color: #ccc;
+}
+#my-timeline .single-main:nth-child(2n) .single-timeline .single-content::after {
+	left: auto;
+	right: -30px;
+	top: 26px;
+	border-right-color: transparent;
+	border-left-color: #fff;
+}
+#my-timeline .single-main:nth-child(2n)  .single-timeline .date{
+	left: auto;
+	right:-95px;
+}
+#call-to-action h2{
+	font-size:25px;
+}
+#call-to-action a{
+	margin-top:10px;
+}
+#clients .single-client img {
+	display:inline-block;
+}
+#clients:hover .owl-nav .owl-prev{
+	left:0px;
+}
+#clients:hover .owl-nav .owl-next{
+	right:0px;
+}
+#testimonial .single-testimonial{
+	transform:translateY(0px);
+}
+#testimonial .owl-dots {
+	position: absolute;
+	transform: rotate(0);
+	bottom: 0;
+	top: 100%;
+	right: 0;
+}
+#testimonial .owl-dots .owl-dot {
+	display: inline-block;
+}
+#clients .owl-nav{
+	top:35%;
+}
+#project .project-hover{
+	top:20px;
+	right:20px;
+	bottom:20px;
+	left:20px;
+}
+#project .project-hover{
+	padding:10px;
+}
+#project .project-hover h4{
+	font-size:15px;
+	margin-bottom:5px;
+}
+#project .project-hover a{
+	padding-top:5px;
+}
+#blog .blog-sidebar{
+	padding-left:10px;
+}
+#blog .single-comments .head{
+	width:100%;
+}
+#success .mail h2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+#footer .copyright{
+	float:none;
+	text-align:center;
+}
+#footer .social{
+	float:none;
+	text-align:center;
+}
+}
+
+/* Mobile Layout */
+@media (max-width: 320px) {
+body{
+	font-size:14px;
+}	
+.section{
+	padding:50px 0;
+}
+.button{
+	padding:8px 15px;
+}
+.section-title h2{
+	font-size:22px;
+}
+
+#header .nav li a{
+	font-size:13px;
+}
+#header .search-form{
+	top:50px;
+}
+#j-slider .slide-text h1 {
+	font-size: 17px;
+}
+#j-slider .slide-text.center {
+	padding: 0px;
+}
+#j-slider .slide-text.right {
+	padding: 0 0 0 0px;
+}
+#j-slider .slide-text.left{
+	padding:0px;
+}
+#j-slider .owl-dots{
+	bottom:0;
+}
+#j-slider .owl-dots .owl-dot.active span{
+	height:20px;
+}
+#about-me {
+	padding: 20px 0 50px;
+}
+#about-me .about-contact, 
+#about-me .my-image, 
+#about-me .about-text{
+	text-align:center;
+	margin-top:30px;
+}
+#project .project-hover {
+	position: absolute;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	padding: 10px;
+	right: 15px;
+}
+#testimonial .owl-dots .owl-dot.active span{
+	height:20px;
+}
+#personal-banner .banner-text h1 {
+	font-size: 25px;
+}
+#personal-banner .banner-text h3 {
+	font-size: 20px;
+}
+#my-timeline .single-timeline {
+	padding-right: 35%;
+}
+#my-timeline .single-main:nth-child(2n) .single-timeline {
+	padding-left: 0px;
+	padding-right: 35%;
+}
+#blog .single-comments .head {
+	width: 100%;
+}
+#blog .comment-list{
+	padding-left:0px;
+}
+#blog .tags ul li {
+	margin-bottom: 10px;
+}
+#blog .blog-share ul li.share{
+	display:block;
+}
+#footer-top{
+	padding:20px 0 50px;
+}
+}
